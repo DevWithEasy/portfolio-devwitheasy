@@ -1,0 +1,6 @@
+.bio{
+    @apply text-slate-800 dark:text-white text-justify;
+    &>h3{
+        @apply text-xl font-sans text-green-500;
+    }
+}

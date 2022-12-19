@@ -1,0 +1,21 @@
+.profile{
+    @apply flex space-x-3;
+
+    /* =========image css ==========*/
+    &>.profile_image{
+
+    }
+    /* =========info css ==========*/
+    &>.profile_info{
+        @apply text-gray-500 dark:text-gray-400 font-serif space-y-2;
+        &>h3{
+            @apply text-black dark:text-white text-xl;
+        }
+        &>.contact{
+            @apply  flex space-x-2 mt-2;
+            &>a{
+                @apply shadow-md rounded-full p-2 dark:shadow-slate-800 text-gray-500 dark:text-gray-400;
+            }
+        }
+    }
+}
