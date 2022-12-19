@@ -7,6 +7,7 @@ import javascript from "../images/skills/javascript.svg"
 import react from "../images/skills/react.svg"
 import next from "../images/skills/nextjs.svg"
 import nodejs from "../images/skills/nodejs.png"
+import express from "../images/skills/expressjs.png"
 import firebase from "../images/skills/firebase.png"
 import mongodb from "../images/skills/mongodb.png"
 
@@ -67,7 +68,7 @@ const skillCollection = [
     },
     {
         name: 'Express JS',
-        image: nodejs,
+        image: express,
         alt : "nodejs",
         percent :'Mid Level' 
     },

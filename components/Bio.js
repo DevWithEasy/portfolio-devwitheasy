@@ -8,6 +8,9 @@ export default function Bio(){
             {/* <p>
                 As a web developer, I have experience in Fullstack Web Application and identifying web-based User interactions along with designing & implementing highly responsive user interface components by deploying React concepts. Proficient in translating design & wireframes into high-quality code, and writhing application interface code via JavaScript & JavaScript library React JS workflows. Adept at monitoring & maintaining frontend performance and troubleshooting & debugging the same to bolster overall performance.
             </p> */}
+            <p className="hire_me">
+            <a href="mailto:devwitheasy@gmail.com">Hire Me</a>
+            </p>
         </div>
     )
 }
