@@ -8,7 +8,7 @@ export default function Skills(){
     return(
         <div className="skills">
             <div className="skills_header">
-               <h3>Skills I've Achived</h3>
+               <h3>{`Skills I've Achived`}</h3>
                <span>
                     <AiOutlineTable size={20} onClick={()=>setView(false)}/>
                     <AiOutlineUnorderedList size={20} onClick={()=>setView(true)}/>
