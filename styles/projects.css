@@ -7,7 +7,7 @@
         dark:bg-slate-700 
         rounded shadow
         transition-all duration-500
-        hover:scale-105 hover:shadow-md;
+        md:hover:scale-105 hover:shadow-md;
     & > .info {
       @apply space-y-2 flex-1;
       & > h3 {
