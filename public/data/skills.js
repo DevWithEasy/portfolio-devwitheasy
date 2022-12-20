@@ -8,6 +8,7 @@ import react from "../images/skills/react.svg"
 import next from "../images/skills/nextjs.svg"
 import nodejs from "../images/skills/nodejs.png"
 import express from "../images/skills/expressjs.png"
+import socket from "../images/skills/socket-io.svg"
 import firebase from "../images/skills/firebase.png"
 import mongodb from "../images/skills/mongodb.png"
 
@@ -71,6 +72,12 @@ const skillCollection = [
         image: express,
         alt : "nodejs",
         percent :'Mid Level' 
+    },
+    {
+        name: 'Socket io',
+        image: socket,
+        alt : "socket",
+        percent :'Junior' 
     },
     {
         name: 'Firebase',
