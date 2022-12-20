@@ -1,6 +1,6 @@
 .projects {
   @apply md:grid md:grid-cols-3 md:gap-4
-  space-y-2;
+  space-y-2 md:space-y-0;
   & > .project {
     @apply relative flex flex-col space-y-2 p-2
         bg-white
@@ -38,7 +38,7 @@
         bg-white dark:bg-slate-500
         rounded;
       & > h3 {
-        @apply font-bold;
+        @apply font-bold dark:text-white;
       }
       & > .action_btn {
         @apply flex justify-between
@@ -51,6 +51,7 @@
           @apply w-6 h-6
                 flex justify-center items-center 
                 border rounded-full
+                dark:text-white
                 hover:text-white hover:bg-red-500 hover:border-none
                 transition-all duration-500;
         }

@@ -1,9 +1,9 @@
-import quranStation from '../images/project/quran_station.png'
 import cashbook from '../images/project/cashbook.png'
 import islamBlog from '../images/project/islam_Blog.png'
-import todo from '../images/project/todo.png'
-import tftf from '../images/project/tftf.png'
+import quranStation from '../images/project/quran_station.png'
 import reduxcart from '../images/project/redux-cart.png'
+import tftf from '../images/project/tftf.png'
+import todo from '../images/project/todo.png'
 
 const projects = [
     {
@@ -35,18 +35,26 @@ const projects = [
         live_link : "http://cashbook-devwitheasy.vercel.app/",
         github_link : "https://github.com/DevWithEasy/cashbook",
         features : [
-
+            'Create personal acoount.',
+            'Save Data in Database in own acoount',
+            'Authenticated Login system.',
+            'Create multiple Books in account.',
+            'Create Different Entry in differnts Books',
+            'Crud Opertion in Book and Entry',
+            'Updated Entry with Edit History auto save.',
+            'User verification by email and verify code.',
+            'Forget and verify password with email verification.',
+            'User profile image upload and delete.',
+            'Acccount Deletetion with all Data.'
         ],
-        elements:[
-            {
-                language :'',
-                library : '',
-                style : '',
-                backend_database : '',
-                authentication : '',
-                hosting : '',
+        elements:{
+                language :'Javascript',
+                library : 'React Js / Next Js (Fullstack)',
+                style : 'Tailwind CSS with Post CSS',
+                backend_database : 'MongoDB / Cloudinary',
+                authentication : 'JWT,Bcrypt and Firebase',
+                hosting : 'Vercel',
             }
-        ]
     },
     {
         name : 'IslamBD',
@@ -55,18 +63,30 @@ const projects = [
         live_link : "https://islambd-devwitheasy.vercel.app/",
         github_link : "https://github.com/DevWithEasy/blog-qna-quiz-app",
         features : [
-
+            'Create personal acoount.',
+            'Save Data in Database in own acoount',
+            'Authenticated Login system.',
+            'Multi user Bloging system.',
+            'Blog ,QNA and Quiz system differnts page with diffent category',
+            'Blog post with Rich Editor and image upload',
+            'Crud Opertion in Blog and QNA',
+            'Admin Auther User system.',
+            'Point system. Point added user acoount user activity and cash widdraw.',
+            'Admin Only can Quiz question and answer',
+            'Like comment and Reply system',
+            'User verification by email and verify code.',
+            'Forget and verify password with email verification.',
+            'User profile image upload and delete.',
+            'Acccount Deletetion with all Data.'
         ],
-        elements:[
-            {
-                language :'',
-                library : '',
-                style : '',
-                backend_database : '',
-                authentication : '',
-                hosting : '',
-            }
-        ]
+        elements:{
+            language :'Javascript',
+            library : 'React Js / Next Js (Fullstack)',
+            style : 'Tailwind CSS with Post CSS',
+            backend_database : 'Firebase Firestore / Storage',
+            authentication : 'JWT,Bcrypt and Firebase',
+            hosting : 'Vercel',
+        }
     },
     {
         name : 'TODO application',
