@@ -1,0 +1,73 @@
+.projects {
+  @apply grid grid-cols-3 gap-4;
+  & > .project {
+    @apply relative flex flex-col space-y-2 p-2
+        bg-white
+        dark:bg-slate-700 
+        rounded shadow
+        transition-all duration-500
+        hover:scale-105 hover:shadow-md;
+    & > .info {
+      @apply space-y-2 flex-1;
+      & > h3 {
+        @apply text-xl text-slate-800
+        dark:text-white
+        font-bold;
+      }
+      & > p {
+        @apply text-sm text-gray-500
+        dark:text-gray-400;
+      }
+    }
+    & > .live_code {
+      @apply space-x-2;
+      & > button {
+        @apply px-4 py-1
+              text-white
+              bg-green-500
+              rounded;
+      }
+    }
+    & > .details {
+      @apply absolute -top-2 left-0
+        overflow-x-auto
+        px-2 pb-4 space-y-2
+        h-full w-full
+        text-sm
+        bg-white dark:bg-slate-500
+        rounded;
+      & > h3 {
+        @apply font-bold;
+      }
+      & > .action_btn {
+        @apply flex justify-between
+            py-1;
+        & > h3 {
+          @apply text-green-500
+                font-bold text-base;
+        }
+        & > button {
+          @apply w-6 h-6
+                flex justify-center items-center 
+                border rounded-full
+                hover:text-white hover:bg-red-500 hover:border-none
+                transition-all duration-500;
+        }
+      }
+      & > .features {
+        @apply space-y-1
+            text-gray-600 text-sm dark:text-gray-200;
+        & > p {
+          @apply flex space-x-1;
+        }
+      }
+      & > .elements {
+        @apply space-y-1
+            text-gray-600 text-sm dark:text-gray-200;
+        & > p {
+          @apply flex space-x-1;
+        }
+      }
+    }
+  }
+}

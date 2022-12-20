@@ -1,0 +1,6 @@
+.repositories{
+    @apply grid grid-cols-3;
+    &>.repo{
+        
+    }
+}

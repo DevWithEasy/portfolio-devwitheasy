@@ -4,6 +4,9 @@
 @import "./profile.css";
 @import "./bio.css";
 @import "./skills.css";
+@import "./works.css";
+@import "./projects.css";
+@import "./repositories.css";
 
 @import "tailwindcss/components";
 

@@ -13,18 +13,20 @@ const projects = [
         live_link : "https://quranstation.netlify.app/",
         github_link : "https://github.com/DevWithEasy/quran-station",
         features : [
-
+            'Listening and Reading Holy Quran.',
+            'Listening Holy Quran About 360 Reciters.',
+            'Learn Quran with video course.',
+            'Read islamic Blog.',
+            'Learn  and Read many articles of islam and differnts topics.'
         ],
-        elements:[
-            {
-                language :'',
-                library : '',
-                style : '',
-                backend : '',
-                authentication : '',
-                hosting : '',
+        elements:{
+                language :'Javascript',
+                library : 'React Js',
+                style : 'Tailwind CSS',
+                backend_database : 'Collecion some API',
+                authentication : 'None',
+                hosting : 'Netlify',
             }
-        ]
     },
     {
         name : 'Cashbook',
@@ -40,7 +42,7 @@ const projects = [
                 language :'',
                 library : '',
                 style : '',
-                backend : '',
+                backend_database : '',
                 authentication : '',
                 hosting : '',
             }
@@ -60,7 +62,7 @@ const projects = [
                 language :'',
                 library : '',
                 style : '',
-                backend : '',
+                backend_database : '',
                 authentication : '',
                 hosting : '',
             }
@@ -80,7 +82,7 @@ const projects = [
                 language :'',
                 library : '',
                 style : '',
-                backend : '',
+                backend_database : '',
                 authentication : '',
                 hosting : '',
             }
@@ -100,7 +102,7 @@ const projects = [
                 language :'',
                 library : '',
                 style : '',
-                backend : '',
+                backend_database : '',
                 authentication : '',
                 hosting : '',
             }
@@ -120,10 +122,12 @@ const projects = [
                 language :'',
                 library : '',
                 style : '',
-                backend : '',
+                backend_database : '',
                 authentication : '',
                 hosting : '',
             }
         ]
     }
 ]
+
+export default projects;

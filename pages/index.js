@@ -3,6 +3,7 @@ import Bio from '../components/Bio'
 import Header from '../components/Header'
 import Profile from '../components/Profile'
 import Skills from '../components/Skills'
+import Works from '../components/Works'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Profile/>
         <Bio/>
         <Skills/>
+        <Works/>
       </main>
     </div>
   )
