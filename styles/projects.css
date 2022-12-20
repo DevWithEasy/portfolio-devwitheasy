@@ -1,5 +1,6 @@
 .projects {
-  @apply md:grid md:grid-cols-3 md:gap-4;
+  @apply md:grid md:grid-cols-3 md:gap-4
+  space-y-2;
   & > .project {
     @apply relative flex flex-col space-y-2 p-2
         bg-white
