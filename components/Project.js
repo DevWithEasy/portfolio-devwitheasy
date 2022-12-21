@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { useState } from "react";
+import {FaInternetExplorer} from "react-icons/fa"
+import {BsCodeSlash,BsInfoCircle} from "react-icons/bs"
 
 export default function Project({project}){
     const [details,setDetails] = useState(false)
@@ -11,8 +13,9 @@ export default function Project({project}){
                     <p>{project.details}</p>
                 </div>
                 <div className="live_code">
-                    <button onClick={()=>setDetails(!details)}>Live</button>
-                    <button onClick={()=>setDetails(!details)}>Details</button>
+                    <a href={project.live_link} target='_blank' rel="noreferrer"><FaInternetExplorer/></a>
+                    <a href={project.github_link} target='_blank' rel="noreferrer"><BsCodeSlash/></a>
+                    <button onClick={()=>setDetails(!details)}><BsInfoCircle/></button>
                 </div>
                 {details && <div className="details">
                     <div className="action_btn">
