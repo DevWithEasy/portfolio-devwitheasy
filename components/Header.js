@@ -5,9 +5,9 @@ import { useState } from "react";
 export default function Header(){
     const [show,setShow] = useState(false)
     return (
-        <div className="absolute top-0 w-full flex items-center p-2">
+        <div className="sticky top-0 w-full flex items-center px-10 py-4 bg-slate-900 text-white z-10">
             <div className="relative w-full flex justify-between items-center">
-                <div className="flex justify-center items-center bg-green-500 w-11 h-11 rounded-full">
+                <div className="flex justify-center items-center bg-green-500 w-12 h-12 rounded-full">
                     <Image src={image} height="30" width="30" alt="dev"/>
                 </div>
                 <div className={!show ? "hidden md:block space-x-3" : "absolute right-0 translate-y-2/3 w-full flex flex-col space-y-2 bg-slate-600 p-2 rounded-md"}>
