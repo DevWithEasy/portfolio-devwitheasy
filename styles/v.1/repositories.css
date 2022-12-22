@@ -1,0 +1,15 @@
+.repositories{
+    @apply md:grid md:grid-cols-3 md:gap-3;
+    &>.repo{
+        @apply border-b pb-2;
+        &>a{
+            @apply flex  space-x-1;
+            &>.icon{
+                @apply shrink-0;
+            }
+            &>span{
+                @apply -mt-1 text-blue-500;
+            }
+        }
+    }
+}

@@ -1,119 +1,119 @@
 const repositories = [
     {
         name:'Cashbook Application',
-        details : '',
+        details : 'An acoounting managebt application.It user can personally acoount',
         link : 'https://github.com/DevWithEasy/cashbook',
-        language : '',
-        framework:'',
-        tools : []
+        language : 'Javascript',
+        framework:'Next JS',
+        tools : ["tailwindcss","bcrypt","jwt","react-hot-toast","cloudinary","MongoDB","nodemail"]
     },
     {
-        name:'',
+        name:'Porfolio DevWithEasy',
         details : '',
         link : 'https://github.com/DevWithEasy/portfolio-devwitheasy',
-        language : '',
+        language : 'Javascript',
         framework:'',
         tools : []
     },
     {
-        name:'',
+        name:'Islamic Bolg,QNA and Quiz',
         details : '',
         link : 'https://github.com/DevWithEasy/blog-qna-quiz-app',
-        language : '',
+        language : 'Javascript',
         framework:'',
         tools : []
     },
     {
-        name:'',
+        name:'react-zustand state management',
         details : '',
         link : 'https://github.com/DevWithEasy/react-zustand',
-        language : '',
+        language : 'Javascript',
         framework:'',
         tools : []
     },
     {
-        name:'',
+        name:'Express with socket.io Practice',
         details : '',
         link : 'https://github.com/DevWithEasy/express-socket.io-practice',
-        language : '',
+        language : 'Javascript',
         framework:'',
         tools : []
     },
     {
-        name:'',
+        name:'next-jwt-middleware-authentication',
         details : '',
         link : 'https://github.com/DevWithEasy/next-jwt-middleware-authentication',
-        language : '',
+        language : 'Javascript',
         framework:'',
         tools : []
     },
     {
-        name:'',
+        name:'quran-station',
         details : '',
         link : 'https://github.com/DevWithEasy/quran-station',
-        language : '',
+        language : 'Javascript',
         framework:'',
         tools : []
     },
     {
-        name:'',
+        name:'food-community-bd-server',
         details : '',
         link : 'https://github.com/DevWithEasy/food-community-bd-server',
-        language : '',
+        language : 'Javascript',
         framework:'',
         tools : []
     },
     {
-        name:'',
+        name:'food-community-client',
         details : '',
         link : 'https://github.com/DevWithEasy/food-community-client',
-        language : '',
+        language : 'Javascript',
         framework:'',
         tools : []
     },
     {
-        name:'',
+        name:'nextjs-next-auth-app',
         details : '',
         link : 'https://github.com/DevWithEasy/next-auth-app',
-        language : '',
+        language : 'Javascript',
         framework:'',
         tools : []
     },
     {
-        name:'',
+        name:'react-rich-editor-example',
         details : '',
         link : 'https://github.com/DevWithEasy/react-rich-editor-example',
-        language : '',
+        language : 'Javascript',
         framework:'',
         tools : []
     },
     {
-        name:'',
+        name:'nextjs-rtk-tailwindcss-template',
         details : '',
         link : 'https://github.com/DevWithEasy/nextjs-rtk-tailwindcss-template',
-        language : '',
+        language : 'Javascript',
         framework:'',
         tools : []
     },
     {
-        name:'',
+        name:'react-rtk-tailwind-template',
         details : '',
         link : 'https://github.com/DevWithEasy/react-rtk-tailwind-template',
-        language : '',
+        language : 'Javascript',
         framework:'',
         tools : []
     },
     {
-        name:'',
+        name:'youtube-clone-server',
         details : '',
         link : 'https://github.com/DevWithEasy/youtube-clone-server',
-        language : '',
+        language : 'Javascript',
         framework:'',
         tools : []
     },
     {
-        name:'',
-        details : '',
+        name:'youtube-clone-client',
+        details : 'Javascript',
         link : 'https://github.com/DevWithEasy/youtube-clone-client',
         language : '',
         framework:'',
@@ -121,74 +121,74 @@ const repositories = [
     },
 
     {
-        name:'',
+        name:'jwt-auth',
         details : '',
         link : 'https://github.com/DevWithEasy/jwt-auth',
-        language : '',
+        language : 'Javascript',
         framework:'',
         tools : []
     },
     {
-        name:'',
+        name:'todo-app-client',
         details : '',
         link : 'https://github.com/DevWithEasy/todo-app-client',
-        language : '',
+        language : 'Javascript',
         framework:'',
         tools : []
     },
     {
-        name:'',
+        name:'todo-app-server',
         details : '',
         link : 'https://github.com/DevWithEasy/todo-app-server',
-        language : '',
+        language : 'Javascript',
         framework:'',
         tools : []
     },
     {
-        name:'',
+        name:'snbemployee',
         details : '',
         link : 'https://github.com/DevWithEasy/snbemployee',
-        language : '',
+        language : 'Javascript',
         framework:'',
         tools : []
     },
     {
-        name:'',
+        name:'tft-foundation',
         details : '',
         link : 'https://github.com/DevWithEasy/tft-foundation',
-        language : '',
+        language : 'Javascript',
         framework:'',
         tools : []
     },
     {
-        name:'',
+        name:'react-search-filter',
         details : '',
         link : 'https://github.com/DevWithEasy/react-search-filter',
-        language : '',
+        language : 'Javascript',
         framework:'',
         tools : []
     },
     {
-        name:'',
+        name:'react-redux-cart',
         details : '',
         link : 'https://github.com/DevWithEasy/react-redux-cart',
-        language : '',
+        language : 'Javascript',
         framework:'',
         tools : []
     },
     {
-        name:'',
+        name:'react-pagination',
         details : '',
         link : 'https://github.com/DevWithEasy/react-pagination',
-        language : '',
+        language : 'Javascript',
         framework:'',
         tools : []
     },
     {
-        name:'',
+        name:'allah99names-api',
         details : '',
         link : 'https://github.com/DevWithEasy/allah99names-api',
-        language : '',
+        language : 'Javascript',
         framework:'',
         tools : []
     },

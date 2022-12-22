@@ -1,13 +1,13 @@
 @import "tailwindcss/base";
-@import "./index.css";
-@import "./header.css";
-@import "./profile.css";
-@import "./bio.css";
-@import "./skills.css";
-@import "./works.css";
-@import "./projects.css";
-@import "./repositories.css";
-@import "./contact.css";
+@import "./v.1/index.css";
+@import "./v.1/header.css";
+@import "./v.1/profile.css";
+@import "./v.1/bio.css";
+@import "./v.1/skills.css";
+@import "./v.1/works.css";
+@import "./v.1/projects.css";
+@import "./v.1/repositories.css";
+@import "./v.1/contact.css";
 
 @import "tailwindcss/components";
 

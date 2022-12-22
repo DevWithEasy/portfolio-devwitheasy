@@ -1,21 +1,24 @@
 .contact{
     @apply space-y-2;
     &>h3{
-        @apply text-xl font-bold before:content-[''] before:border-2 before:border-green-500 before:mr-2 underline underline-offset-2;
+        @apply text-xl font-bold before:content-[''] before:border-2 before:border-green-500 before:mr-2 underline underline-offset-2 dark:text-white;
     }
     &>form{
         @apply space-y-2;
         &>div{
             @apply space-y-1;
+            &>label{
+                @apply dark:text-white;
+            }
             &>input{
                 @apply w-full p-2 
                 border
-                focus:outline-none focus:ring-2 
+                focus:outline-none focus:ring-2 dark:focus:ring-white
             }
             &>textarea{
                 @apply w-full p-2 
                 border
-                focus:outline-none focus:ring-2
+                focus:outline-none focus:ring-2 dark:focus:ring-white
             }
         }
         &>button{

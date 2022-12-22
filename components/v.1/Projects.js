@@ -1,4 +1,4 @@
-import projects from "../public/data/projects";
+import projects from "../../public/data/projects";
 import Project from "./Project";
 
 export default function Projects(){

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
-import admin from "../public/images/admin.png";
+import admin from "../../public/images/admin.png";
 import {BsGithub,BsFacebook,BsLinkedin} from "react-icons/bs"
 
 export default function Profile(){

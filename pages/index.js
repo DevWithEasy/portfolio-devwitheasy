@@ -1,10 +1,7 @@
 import Head from 'next/head'
-import Bio from '../components/Bio'
-import Contact from '../components/Contact'
-import Header from '../components/Header'
-import Profile from '../components/Profile'
+import About from '../components/About'
+import Hero from '../components/Home'
 import Skills from '../components/Skills'
-import Works from '../components/Works'
 
 export default function Home() {
   return (
@@ -15,13 +12,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="index">
-        {/* <Header/>
-        <Profile/>
-        <Bio/>
-        <Skills/>
-        <Works/> */}
-        <Contact/>
+      <main className="bg-slate-700 text-white px-10">
+       <Hero/>
+       <About/>
+       <Skills/>
       </main>
     </div>
   )
