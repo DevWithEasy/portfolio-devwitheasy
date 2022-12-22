@@ -3,10 +3,14 @@ import developer from "../public/images/developer.jpg";
 
 export default function About(){
     return (
-        <div id="about" className="pb-5">
-            <div className="w-full py-5 flex justify-center items-center">
-                <h3 className="underline underline-offset-4 underline-green-500 text-2xl md:text-3xl font-extrabold py-2">ABOUT ME</h3>
-             </div>
+        <div id="about" className="space-y-5">
+            <div className="flex justify-center items-center">
+                <div className="w-8/12 md:w-1/2 flex justify-between items-center">
+                    <hr className="w-1/4"/>
+                    <div className="w-2/4 bg-slate-700 rounded py-1 text-center">FOLLOW ME</div>
+                    <hr className="w-1/4"/>
+                </div>
+            </div>
 
             <div className="flex flex-col-reverse md:flex-row md:justify-between md:space-x-2">
                 <div className="md:w-1/2 md:pl-4 pt-4 md:pt-0">
