@@ -18,7 +18,7 @@ export default function Projects(){
             <div className="md:grid md:grid-cols-3 md:gap-4 space-y-5 md:space-y-0">
                 {projects.map((project,i) =><div key={i} className="relative bg-slate-800 text-gray-300 rounded ">
                     <Image src={project.image} alt={project.name} style={{borderRadius : "5px"}} className="h-60 md:h-52"/>
-                    <div className="p-4 space-y-4">
+                    <div className="p-4 space-y-6">
                         <div>
                             <a className="text-2xl font-bold">{project.name}</a>
                             <p>{project.details}</p>
@@ -28,9 +28,6 @@ export default function Projects(){
                             <a href={project.github_link} className="hover:text-green-500 transtion-all duration-500"><BiLinkExternal size={25}/></a>
                             <button onClick={()=>setDetails(!details)} className="hover:text-green-500 transtion-all duration-500 cursor-pointer"><AiOutlineInfoCircle size={25}/></button>
                         </div>
-                        {/* <div className="flex-1">
-                            {project.tools.map((tool,i) =><span key={i} className="px-2 text-sm">{tool}</span> )}
-                        </div> */}
                     </div>
                     {/*========= Deaitls information about project ============*/}
                     {details && <div className="absolute w-full h-full p-2 space-y-2 left-0 top-0 bg-slate-800 rounded overflow-x-auto">
