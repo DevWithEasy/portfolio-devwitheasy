@@ -48,7 +48,7 @@ export default function Hero(){
                         </div>
                         <div className="py-2 pb-6 md:pb-10 space-x-2 md:text-base">
                             <a href="" className="text-center p-3 rounded border-2 border-green-500 bg-green-500">Get Resume</a>
-                            <a href="" className="text-center p-3 rounded border-2 border-green-500">About me</a>
+                            <a href="" className="text-center p-3 rounded border-2 border-green-500 hover:bg-green-500 transtion-all duration-500">About me</a>
                         </div>
                     </div>
                     <div className="">
