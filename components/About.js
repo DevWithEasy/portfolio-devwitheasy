@@ -18,8 +18,8 @@ export default function About(){
                     {"Hello! I'm Robiul Awal, a passionate Web Developer. I develop web applications. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I love to make the web more open to the world. I am available for any kind of job opportunity that suits my interests."}
                     </p>
                     <div className="py-10 space-x-2 md:text-base">
-                        <a href="" className="text-center md:p-3 py-1.5 rounded bg-green-500 border border-green-500">Get Resume</a>
-                        <a href="" className="text-center md:p-3 py-1.5 rounded border border-green-500 hover:bg-green-500 transtion-all duration-500">My Skills</a>
+                        <a href="" className="text-center p-3 rounded bg-green-500 border border-green-500">Get Resume</a>
+                        <a href="" className="text-center p-3 rounded border border-green-500 hover:bg-green-500 transtion-all duration-500">My Skills</a>
                     </div>
                 </div>
                 <div className="md:w-1/2 flex justify-center items-center shrink-0">
