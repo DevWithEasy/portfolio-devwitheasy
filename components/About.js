@@ -23,7 +23,7 @@ export default function About(){
                     </div>
                 </div>
                 <div className="md:w-1/2 flex justify-center items-center shrink-0">
-                    <Image src={developer} alt="Developer" height={300} style={{borderRadius : "5px"}}/>
+                    <Image src={developer} alt="Developer" height={300} style={{borderRadius : "5px"}} className="grayscale hover:grayscale-0 hover:scale-105 transition-all duration-500"/>
                 </div>
             </div>
 

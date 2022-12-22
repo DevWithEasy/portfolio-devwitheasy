@@ -26,7 +26,8 @@ const projects = [
                 backend_database : 'Collecion some API',
                 authentication : 'None',
                 hosting : 'Netlify',
-            }
+            },
+        tools : ["ReactJs", "Tailwind CSS"]
     },
     {
         name : 'Cashbook',
@@ -54,7 +55,8 @@ const projects = [
                 backend_database : 'MongoDB / Cloudinary',
                 authentication : 'JWT,Bcrypt and Firebase',
                 hosting : 'Vercel',
-            }
+            },
+        tools : ["Next-Js", "Tailwind CSS","MongoDB", "Firebase"]
     },
     {
         name : 'IslamBD',
@@ -86,7 +88,8 @@ const projects = [
             backend_database : 'Firebase Firestore / Storage',
             authentication : 'JWT,Bcrypt and Firebase',
             hosting : 'Vercel',
-        }
+        },
+    tools : ["Next-Js", "Tailwind CSS","Firebase"]
     },
     {
         name : 'TODO application',
@@ -97,7 +100,7 @@ const projects = [
         features : [
 
         ],
-        elements:[
+        elements:
             {
                 language :'',
                 library : '',
@@ -105,8 +108,8 @@ const projects = [
                 backend_database : '',
                 authentication : '',
                 hosting : '',
-            }
-        ]
+            },
+        tools : ["ReactJs", "Tailwind CSS" ,"Node JS","Express JS","MongoDB"]
     },
     {
         name : 'TFT Foundation',
@@ -117,16 +120,15 @@ const projects = [
         features : [
 
         ],
-        elements:[
-            {
+        elements:{
                 language :'',
                 library : '',
                 style : '',
                 backend_database : '',
                 authentication : '',
                 hosting : '',
-            }
-        ]
+            },
+        tools : ["ReactJs", "Tailwind CSS" ,"Firebase",]
     },
     {
         name : 'Cart Add Product',
@@ -137,16 +139,15 @@ const projects = [
         features : [
 
         ],
-        elements:[
-            {
+        elements:{
                 language :'',
                 library : '',
                 style : '',
                 backend_database : '',
                 authentication : '',
                 hosting : '',
-            }
-        ]
+            },
+        tools : ["React Js", "Tailwind CSS"]
     }
 ]
 

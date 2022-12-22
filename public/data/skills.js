@@ -17,79 +17,92 @@ const skillCollection = [
         name: 'HTML5',
         image: html,
         alt : "html",
-        percent :'Expert' 
+        percent :'90%',
+        type: 'Web'
     },
     {
         name: 'CSS3',
         image: css,
         alt : "css",
-        percent :'Expert' 
+        percent :'80%',
+        type: 'Web' 
     },
     {
         name: "SASS",
         image: sass,
         alt : "SASS",
-        percent :'Mid Level' 
+        percent :'80%',
+        type: 'Framework' 
     },
     {
         name: 'Bootstrap',
         image: bootstrap,
         alt : "bootstrap",
-        percent :'Expert' 
+        percent :'85%',
+        type: 'Framework' 
     },
     {
         name: 'Tailwind CSS',
         image: tailwind,
         alt : "tailwind",
-        percent :'Expert' 
+        percent :'85%',
+        type: 'Framework' 
     },
     {
         name: 'JavaScript',
         image: javascript,
         alt : "javascript",
-        percent :'Junior' 
+        percent :'75%',
+        type: 'Language' 
     },
     {
         name: 'React JS',
         image: react,
         alt : "react",
-        percent :'Mid Level' 
+        percent :'75%',
+        type: 'Framework' 
     },
     {
         name: 'Next JS',
         image: next,
         alt : "next",
-        percent :'Mid Level' 
+        percent :'70%',
+        type: 'Framework' 
     },
     {
         name: 'Node JS',
         image: nodejs,
         alt : "nodejs",
-        percent :'Mid Level' 
+        percent :'75%',
+        type: 'Web' 
     },
     {
         name: 'Express JS',
         image: express,
         alt : "nodejs",
-        percent :'Mid Level' 
+        percent :'80%',
+        type: 'Framework' 
     },
     {
         name: 'Socket io',
         image: socket,
         alt : "socket",
-        percent :'Junior' 
+        percent :'60%',
+        type: 'Web' 
     },
     {
         name: 'Firebase',
         image: firebase,
         alt : "firebase",
-        percent :'Mid Level'  
+        percent :'80%',
+        type: 'Database'  
     },
     {
         name: 'MongoDB',
         image: mongodb,
         alt : "mongodb",
-        percent :'Mid Level'
+        percent :'80%',
+        type: 'Database'
     }
 ]
 export default skillCollection;

@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function Header(){
     const [show,setShow] = useState(false)
     return (
-        <div className="sticky top-0 w-full flex items-center px-10 py-4 bg-slate-900 text-white z-10">
+        <div className="sticky top-0 w-full flex items-center px-10 py-4 bg-slate-800 text-white z-10">
             <div className="relative w-full flex justify-between items-center">
                 <div className="flex justify-center items-center bg-green-500 w-12 h-12 rounded-full">
                     <Image src={image} height="30" width="30" alt="dev"/>
