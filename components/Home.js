@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 export default function Hero(){
     return (
         <div className="h-screen flex justify-center items-center">
-                <div className="w-full text-center space-y-3 pb-20">
+                <div className="w-full text-center space-y-3 pb-40 md:pb-0">
                     <div className="w-full text-center space-y-3">
                         <div className="space-y-1">
                             <p className="text-green-500 text-xl">Hello ! I am</p>
