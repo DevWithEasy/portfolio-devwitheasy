@@ -9,21 +9,25 @@ export default function Skills(){
         if(type == "Language"){
             const find = skillCollection.filter(skill => skill.type == type)
             setSkills(find);
+            setActive(1)
         }
         if(type == "Framework"){
             const find = skillCollection.filter(skill => skill.type == type)
             setSkills(find);
+            setActive(2)
         }
         if(type == "Database"){
             const find = skillCollection.filter(skill => skill.type == type)
             setSkills(find);
+            setActive(3)
         }
         if(type == "All"){
             setSkills(skillCollection);
+            setActive(0)
         }
     }
     return (
-        <div id="#skill" className="skills">
+        <div id="skill" className="skills">
             <div className="flex justify-center items-center py-5">
                 <div className="w-8/12 md:w-1/2 flex justify-between items-center">
                     <hr className="w-1/4"/>
@@ -35,7 +39,7 @@ export default function Skills(){
                 <button onClick={()=>skillHandler('All')} className={active==0 ? "m-1 px-4 py-2 bg-green-500 border-2 border-green-500 rounded text-center  hover:bg-green-500 transition-all duration-500" : "m-1 px-4 py-2 border-2 border-green-500 rounded text-center hover:bg-green-500 transition-all duration-500"}>All</button>
                 <button onClick={()=>skillHandler('Language')} className={active==1 ? "m-1 px-4 py-2 bg-green-500 border-2 border-green-500 rounded text-center  hover:bg-green-500 transition-all duration-500" : "m-1 px-4 py-2 border-2 border-green-500 rounded text-center hover:bg-green-500 transition-all duration-500"}>Language</button>
                 <button onClick={()=>skillHandler('Framework')} className={active==2 ? "m-1 px-4 py-2 bg-green-500 border-2 border-green-500 rounded text-center  hover:bg-green-500 transition-all duration-500" : "m-1 px-4 py-2 border-2 border-green-500 rounded text-center hover:bg-green-500 transition-all duration-500"}>Frameworks</button>
-                <button onClick={()=>skillHandler('Database')} className={active==4 ? "m-1 px-4 py-2 bg-green-500 border-2 border-green-500 rounded text-center  hover:bg-green-500 transition-all duration-500" : "m-1 px-4 py-2 border-2 border-green-500 rounded text-center hover:bg-green-500 transition-all duration-500"}>Database</button>
+                <button onClick={()=>skillHandler('Database')} className={active==3 ? "m-1 px-4 py-2 bg-green-500 border-2 border-green-500 rounded text-center  hover:bg-green-500 transition-all duration-500" : "m-1 px-4 py-2 border-2 border-green-500 rounded text-center hover:bg-green-500 transition-all duration-500"}>Database</button>
              </div>
              <div className="md:grid md:grid-cols-2 md:gap-4 space-y-2 md:space-y-0">
                 {

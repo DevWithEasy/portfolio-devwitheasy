@@ -19,7 +19,7 @@ export default function About(){
                     </p>
                     <div className="py-10 space-x-2 md:text-base">
                         <a href="" className="text-center p-3 rounded bg-green-500 border-2 border-green-500">Get Resume</a>
-                        <a href="" className="text-center p-3 rounded border-2 border-green-500 hover:bg-green-500 transtion-all duration-500">My Skills</a>
+                        <a href="#skill" className="text-center p-3 rounded border-2 border-green-500 hover:bg-green-500 transtion-all duration-500">My Skills</a>
                     </div>
                 </div>
                 <div className="md:w-1/2 flex justify-center items-center shrink-0">

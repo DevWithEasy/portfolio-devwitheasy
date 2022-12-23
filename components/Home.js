@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 
 export default function Hero(){
     return (
-        <div id="#home" className="h-screen flex justify-center items-center">
+        <div id="home" className="h-screen flex justify-center items-center">
                 <div className="w-full text-center space-y-3 pb-40 md:pb-0">
                     <div className="w-full text-center space-y-3">
                         <div className="space-y-1">
@@ -45,7 +45,7 @@ export default function Hero(){
                         </div>
                         <div className="py-2 pb-6 md:pb-10 space-x-2 md:text-base">
                             <a href="" className="text-center p-3 rounded border-2 border-green-500 bg-green-500">Get Resume</a>
-                            <a href="" className="text-center p-3 rounded border-2 border-green-500 hover:bg-green-500 transtion-all duration-500">About me</a>
+                            <a href="#about" className="text-center p-3 rounded border-2 border-green-500 hover:bg-green-500 transtion-all duration-500">About me</a>
                         </div>
                     </div>
                     <div className="">
@@ -59,10 +59,10 @@ export default function Hero(){
                             <div className="flex items-center justify-center py-5">
                                 <div className="flex items-center space-x-3">
                                     <a href="https://github.com/DevWithEasy" target="_blank" rel="noreferrer"><AiFillGithub size={20}/></a>
-                                    <a href=""><FaLinkedinIn size={20}/></a>
+                                    <a href="https://linkedin.com/in/robiulawal68" target="_blank" rel="noreferrer"><FaLinkedinIn size={20}/></a>
                                     <a href="https://facebook.com/robiulawal688" target="_blank" rel="noreferrer"><FaFacebookF size={20}/></a>
-                                    <a href=""><AiOutlineTwitter size={20}/></a>
-                                    <a href=""><AiOutlineYoutube size={20}/></a>
+                                    <a href="https://twitter.com/robiulawal68" target="_blank" rel="noreferrer"><AiOutlineTwitter size={20}/></a>
+                                    <a href="https://www.youtube.com/@devwitheasy" target="_blank" rel="noreferrer"><AiOutlineYoutube size={20}/></a>
                                 </div>
                             </div>
                     </div>

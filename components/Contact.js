@@ -7,16 +7,16 @@ export default function Contact(){
     function sendEmail (e) {
         e.preventDefault();
     
-        emailjs.sendForm('service_vahxsal', 'template_0ec0wf8', form.current, 'vrYNit74nKosXSf1I')
+        emailjs.sendForm('service_vahxsal', 'template_q4rd18i', form.current, 'vrYNit74nKosXSf1I')
           .then((result) => {
               toast.success("Email sent successfully")
+              e.target.reset()
           }, (error) => {
             toast.error("Email sent Failed")
           });
-        e.target.reset()
       };
     return(
-        <div id="#contact" className="">
+        <div id="contact" className="">
             <div className="flex justify-center items-center">
                 <div className="w-8/12 md:w-1/2 flex justify-between items-center py-5">
                     <hr className="w-1/4"/>
@@ -53,13 +53,13 @@ export default function Contact(){
                         <button type="submit" className="p-3 bg-green-500 rounded">Send Meesage</button>
                     </form>
                 </div>
-                <div className="md:w-1/2 space-y-2">
+                <div className="md:w-1/2 space-y-3 pl-4">
                     <p className="text-lg text-justify">{"I am interested in working with any company that thinks my skill will be helpful for them. If you are looking for someone like me, please let me know. Or you can just 'say hi' to me."}</p>
                     <p className="py-5">
                         <a href="" className="text-center p-3 rounded bg-green-500 border border-green-500">Contact Me</a>
                     </p>
                     <div>
-                        <h3 className="text-2xl">Email : </h3>
+                        <h3 className="text-2xl font-bold">Email : </h3>
                         <p>devwitheasy@gmail.com <span className="text-gray-500">(Recomonded)</span></p>
                     </div>
                     {/* <div>
@@ -67,7 +67,7 @@ export default function Contact(){
                         <p>devwitheasy@gmail.com <span className="text-gray-500">(Recomonded)</span></p>
                     </div> */}
                     <div>
-                        <h3 className="text-2xl">Address : </h3>
+                        <h3 className="text-2xl font-bold">Address : </h3>
                         <p>Bangrol, Motra Hat (5100), Thakurgaon Sadar Thakurgaon</p>
                     </div>
                 </div>

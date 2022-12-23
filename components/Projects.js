@@ -4,7 +4,7 @@ import Project from "./Project";
 
 export default function Projects(){
     return(
-        <div id="#project" className="space-y-5">
+        <div id="project" className="space-y-5">
             <div className="flex justify-center items-center py-5">
                 <div className="w-8/12 md:w-1/2 flex justify-between items-center">
                     <hr className="w-1/4"/>

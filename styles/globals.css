@@ -12,3 +12,7 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+html{
+    scroll-behavior: smooth;
+}
