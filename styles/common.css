@@ -1,0 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.heading{
+    @apply flex justify-center items-center py-10;
+    &>div{
+        @apply w-8/12 md:w-1/2 flex justify-between items-center;
+        &>hr{
+            @apply w-1/4;
+        }
+        &>div{
+            @apply w-2/4 bg-slate-700 rounded py-1 text-center uppercase;
+        }
+    }
+}

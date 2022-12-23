@@ -17,7 +17,7 @@ export default function Contact(){
         e.target.reset()
       };
     return(
-        <div className="contact">
+        <div className="v1_contact">
             <h3>Contact Me</h3>
             <form ref={form} onSubmit={sendEmail}>
                 <div>

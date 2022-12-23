@@ -6,7 +6,7 @@ import {BsCodeSlash,BsInfoCircle} from "react-icons/bs"
 export default function Project({project}){
     const [details,setDetails] = useState(false)
     return(
-        <div className="project">
+        <div className="v1_project">
                 <Image src={project.image} alt={project.name}/>
                 <div className="info">
                     <h3>{project.name}</h3>

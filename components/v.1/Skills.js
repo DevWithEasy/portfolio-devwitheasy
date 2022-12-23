@@ -6,7 +6,7 @@ import skillCollection from "../../public/data/skills";
 export default function Skills(){
     const [view,setView] = useState(false)
     return(
-        <div className="skills">
+        <div className="v1_skills">
             <div className="skills_header">
                <h3>{`Skills I've Achived`}</h3>
                <span>

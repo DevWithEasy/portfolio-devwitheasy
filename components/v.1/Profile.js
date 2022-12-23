@@ -5,7 +5,7 @@ import {BsGithub,BsFacebook,BsLinkedin} from "react-icons/bs"
 
 export default function Profile(){
     return(
-        <div className="profile">
+        <div className="v1_profile">
             <div className="profile_image">
                 <Image src={admin} alt="" width={50} height={50}/>
             </div>

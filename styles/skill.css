@@ -1,0 +1,35 @@
+.skills{
+    &>.select{
+        @apply my-2;
+        &>button{
+            @apply m-1 px-4 py-2 border-green-500 rounded text-center transition-all duration-500;
+        }
+        &>.active{
+            @apply bg-green-500 border-2 hover:bg-green-500;
+        }
+        &>.inactive{
+            @apply border-2  hover:bg-green-500;
+        }
+    }
+    &>.all_skills{
+        @apply md:grid md:grid-cols-2 md:gap-4 space-y-2 md:space-y-0;
+        &>.skill{
+            @apply bg-slate-800 rounded;
+            &>.skill_info{
+                @apply flex justify-between items-center px-2 py-4;
+                &>p{
+                    @apply flex items-center space-x-2;
+                    &>span{
+                        @apply text-xl font-bold;
+                    }
+                }
+                &>span{
+                    @apply px-3 py-2 bg-green-500 rounded-md font-bold;
+                }
+            }
+            &>.skill_percentage{
+                @apply h-2 bg-green-500 rounded;
+            }
+        }
+    }
+}

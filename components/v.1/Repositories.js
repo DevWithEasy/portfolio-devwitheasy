@@ -3,7 +3,7 @@ import repositories from "../../public/data/repositories";
 
 export default function Repositories(){
     return (
-        <div className="repositories">
+        <div className="v1_repositories">
             {repositories.map((repo,i)=><div key={i} className="repo">
                 <a href={repo.link} target='_blank' rel="noreferrer">
                     <FcFolder  className="icon"/>

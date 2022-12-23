@@ -8,7 +8,7 @@ export default function Works(){
         setActive(value)
     };
     return (
-        <div className="works">
+        <div className="v1_works">
             <h3>My Works</h3>
             <div className="action_btn">
                 <button onClick={()=>action_btn(0)} className={active === 0 ? 'active' : ''}>Projects</button>

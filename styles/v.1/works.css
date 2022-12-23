@@ -1,4 +1,4 @@
-.works{
+.v1_works{
     @apply space-y-3;
     &>h3{
         @apply text-xl font-bold 

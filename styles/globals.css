@@ -8,11 +8,15 @@
 @import "./v.1/projects.css";
 @import "./v.1/repositories.css";
 @import "./v.1/contact.css";
+@import "./about.css";
+@import "./contact.css";
+@import "./footer.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./project.css";
+@import "./skill.css";
+@import "./common.css";
 
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
-
-html{
-    scroll-behavior: smooth;
-}

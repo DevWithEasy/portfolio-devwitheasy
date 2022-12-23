@@ -1,0 +1,32 @@
+.header {
+  @apply sticky top-0 w-full flex items-center px-5 md:px-10 py-2 bg-slate-800 text-white z-10;
+  & > div {
+    @apply relative w-full flex justify-between items-center;
+    & > a {
+      @apply flex justify-center items-center bg-green-500 w-12 h-12 rounded-full;
+    }
+    & > .option_area {
+      & > .option {
+        @apply px-2 py-1.5 hover:bg-green-500 transition-all duration-500;
+      }
+      & > .option_unhide {
+        @apply w-28 hover:translate-x-2;
+      }
+      & > .resume_hide {
+        @apply px-2 py-1.5 ml-2 hover:bg-green-500 transition-all duration-500 ring-2 ring-green-500 rounded;
+      }
+      & > .resume_unhide {
+        @apply ring-2 ring-green-500 rounded text-center ml-2 md:ml-0;
+      }
+    }
+    & > .option_area_hide {
+      @apply hidden md:block space-x-3;
+    }
+    & > .option_area_unhide {
+      @apply absolute right-0 translate-y-2/3 w-full flex flex-col space-y-2 bg-slate-800 p-2 pb-4 rounded-md;
+    }
+    & > button {
+      @apply md:hidden px-1 py-1 bg-green-500 rounded;
+    }
+  }
+}

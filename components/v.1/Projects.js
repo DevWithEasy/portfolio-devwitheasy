@@ -4,7 +4,7 @@ import Project from "./Project";
 export default function Projects(){
 
     return (
-        <div className="projects">
+        <div className="v1_projects">
             {projects.map((project,i)=><Project key={i} project={project}/>)}
         </div>
     )

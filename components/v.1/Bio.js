@@ -1,6 +1,6 @@
 export default function Bio(){
     return (
-        <div className="bio">
+        <div className="v1_bio">
             <h3>Hi There,</h3>
             <p> 
                 {`I’m a highly motivated, ambitious, and creative person who can make you happy to develop an amazing website at an affordable price. I'm available for freelance work.`}

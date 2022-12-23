@@ -1,4 +1,4 @@
-.skills{
+.v1_skills{
     @apply dark:text-white space-y-3 pb-4;
     &>.skills_header{
         @apply flex justify-between items-center;

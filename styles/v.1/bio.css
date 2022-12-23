@@ -1,4 +1,4 @@
-.bio{
+.v1_bio{
     @apply py-10 text-slate-800 dark:text-gray-300 text-justify;
     &>h3{
         @apply text-xl font-sans text-green-500;

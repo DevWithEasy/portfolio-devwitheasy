@@ -14,7 +14,7 @@ export default function Header(){
         setDark(!dark)
     }
     return(
-        <div className="header">
+        <div className="v1_header">
             <div className='mode'>
                 {
                     dark?<BsSun onClick={addDark}/>:<BsMoon onClick={removeDark}/>

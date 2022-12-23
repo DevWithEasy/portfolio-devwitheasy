@@ -1,0 +1,21 @@
+.footer{
+    @apply bg-slate-800 text-white py-7 px-5 md:px-10 md:flex md:justify-between space-y-3 md:space-y-0;
+    &>div{
+        @apply flex justify-center space-x-3;
+        &>div{
+            @apply bg-slate-900  text-xl font-bold rounded;
+            &>p{
+                @apply px-4;
+            }
+            &>div{
+                @apply h-1 bg-green-500 rounded;
+            }
+        }
+        &>a{
+            @apply flex items-center space-x-1;
+        }
+        &>.icon{
+            @apply flex justify-between items-center px-1 bg-green-500 rounded;
+        }
+    }
+}
