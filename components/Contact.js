@@ -53,7 +53,7 @@ export default function Contact(){
                 <div className="contact_area_social">
                     <p className="bio">{"I am interested in working with any company that thinks my skill will be helpful for them. If you are looking for someone like me, please let me know. Or you can just 'say hi' to me."}</p>
                     <p className="contact">
-                        <a href="">Contact Me</a>
+                        <a href="mailto:devwitheasy@gmail.com">Contact Me</a>
                     </p>
                     <div>
                         <h3 >Email : </h3>

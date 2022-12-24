@@ -1,21 +1,22 @@
 .footer{
-    @apply bg-slate-800 text-white py-7 px-5 md:px-10 md:flex md:justify-between space-y-3 md:space-y-0;
+    @apply bg-slate-800 text-white py-7 px-5 md:px-10 flex justify-center;
     &>div{
-        @apply flex justify-center space-x-3;
-        &>div{
-            @apply bg-slate-900  text-xl font-bold rounded;
-            &>p{
-                @apply px-4;
-            }
-            &>div{
-                @apply h-1 bg-green-500 rounded;
+        @apply flex flex-col items-center;
+        &>.social{
+            @apply flex space-x-2 py-5;
+            &>.social-icon{
+                @apply hover:text-green-500 hover:-translate-y-2 transition-all duration-500
             }
         }
-        &>a{
+        &>.link{
             @apply flex items-center space-x-1;
+            &>div{
+                @apply w-2 h-2 rounded-full bg-gray-500;
+            }
         }
-        &>.icon{
-            @apply flex justify-between items-center px-1 bg-green-500 rounded;
+        &>.copyright{
+            @apply text-gray-500
         }
+
     }
 }
